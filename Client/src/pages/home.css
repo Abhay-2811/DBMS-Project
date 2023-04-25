@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background: url('../images/flight.jpg');
+  background-size: cover;
+}
+.home__container {
+  display: flex;
+  justify-content: left;
+  align-items:flex-start;
+  flex-direction: column;
+  margin: 70px 20px;
+  
+}
+.heading {
+  font-size: 20px;
+  color: #2868ff;
+  font-weight: 500;
+  background-color: #e5ecfb;
+  padding: 6px 15px;
+  border-radius: 6px;
+  margin: 5px;
+}
+.heading__sec {
+  font-size: 60px;
+  font-weight: 500;
+  color: #040303;
+}
+.first {
+  margin-top: 10px;
+}
+
+.para {
+  margin-top: 25px;
+  max-width: 800px;
+  text-align: center;
+  color: #343434;
+  font-size: 22px;
+}
+.getStarted {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #2667ff;
+  color: white;
+  padding: 12px 35px;
+  margin-top: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 100;
+}
+.getStarted:hover{
+  color: white;
+}
+
+.arrowicon {
+  margin-left: 5px;
+}
+.icon {
+  font-size: 50px;
+}
+.card__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
