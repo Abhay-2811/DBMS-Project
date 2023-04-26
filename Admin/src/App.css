@@ -8,3 +8,15 @@
     flex-direction: column;
     background-color: #F0F2F5;
 }
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 50%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.loginBox input{
+    margin-bottom: 10px;
+}

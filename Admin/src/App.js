@@ -21,7 +21,7 @@ function App () {
   }
   return(
     <Router>
-      {onSuccess && <div>
+      {onSuccess && <div className='loginBox'>
             
                 <div>
                     <label>Email</label>
